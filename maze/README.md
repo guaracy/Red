@@ -35,4 +35,15 @@ ctx-maze/maze
 
 Retorna um bloco de strings identificando cada célula do labirinto onde w = parede e p = caminho.
 
+```red
+ctx-maze/method: 'algoritmo
+```
+
+onde, ```algoritmo``` pode ser:
+
+'rb = recursive backtracker
+'bt = binary tree
+'sw = sidewinder
+
+
 O programa ```test/teste.red``` permite testar os algorítmos.

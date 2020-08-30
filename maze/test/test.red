@@ -1,8 +1,7 @@
 Red [Needs: View]
 
-#include %maze.red
+#include %../maze.red
 
-; DATA-DIVISON
 ; hero.png : https://opengameart.org/content/base-character-spritesheet-16x16
 hero:  load %hero.png
 wall:  load %wall.png
@@ -12,7 +11,6 @@ door:  load %door.png
 imsz: wall/size/x
 maze-size: 10x10 ;15x10
 
-; PROCEDURE-DIVISION
 draw-to: function [des src [image!] pos [pair!]][
     dx: pos/y - 1 * des/size/x + pos/x
     sw: src/size/x
@@ -68,7 +66,7 @@ new-maze: func[/local s][
     ]
     lab/image: pic
     lab/size: pic/size
-    sdoor/offset: lab/offset + lab/size - 16x32
+    sdoor/offset: lab/offset + lab/size - 32x32
     lay/size: lab/offset + pic/size + 10
 ]
 

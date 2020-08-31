@@ -1,14 +1,14 @@
 ```maze.red``` implementa três algoritmos para a geração de labirintos:
 
-![Recursive Backtracking](http://weblog.jamisbuck.org/2010/12/27/maze-generation-recursive-backtracking)
+[Recursive Backtracking](http://weblog.jamisbuck.org/2010/12/27/maze-generation-recursive-backtracking)
 
 ![](https://github.com/guaracy/Red/blob/master/maze/images/maze-rb.png)
 
-![Binary Tree algorithm](http://weblog.jamisbuck.org/2011/2/1/maze-generation-binary-tree-algorithm.html)
+[Binary Tree algorithm](http://weblog.jamisbuck.org/2011/2/1/maze-generation-binary-tree-algorithm.html)
 
 ![](https://github.com/guaracy/Red/blob/master/maze/images/maze-bt.png)
 
-![Sidewinder algorithm](http://weblog.jamisbuck.org/2011/2/3/maze-generation-sidewinder-algorithm.html)
+[Sidewinder algorithm](http://weblog.jamisbuck.org/2011/2/3/maze-generation-sidewinder-algorithm.html)
 
 ![](https://github.com/guaracy/Red/blob/master/maze/images/maze-sw2.png)
 

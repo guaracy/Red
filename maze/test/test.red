@@ -25,6 +25,7 @@ hero-position: 2x2
 hero-dest: 2x2
 hero-moves: 0
 hero-speed: 20
+hero-step: 0x0
 
 imsz: wall/size/x
 maze-size: 5x5
